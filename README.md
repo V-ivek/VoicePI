@@ -1,10 +1,10 @@
-# NgPythonDemo
+# VoicePI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
 
 ## Development server
 
-Run python server using `python server.py` command
+Run python server using `python assistant.py` command
 
 ## Development server
 
