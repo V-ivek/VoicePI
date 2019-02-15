@@ -22,7 +22,7 @@ CORS(app)
 
 @app.route("/")
 def hello():
-    speak('Hello Sir, I am your digital assistant LARVIS the Lady Jarvis!')
+    speak('Hello Sir, I am your digital assistant')
     speak('How may I help you?')
     greetMe()
     while True:
