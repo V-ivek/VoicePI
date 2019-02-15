@@ -39,4 +39,11 @@ export class AppComponent {
       console.log(this.employee);
     })
   }
+
+  callVoicePI() {
+    this.httpClient.get('http://127.0.0.1:5002/').subscribe(data => {
+      this.serverData = data as JSON;
+      console.log(this.serverData);
+    })
+  }
 }
